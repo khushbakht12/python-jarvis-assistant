@@ -8,20 +8,6 @@ This project uses speech recognition and text-to-speech technologies to interact
 
 ---
 
-## Features
-
-- 🎤 Voice command recognition
-- 🔊 Text-to-speech responses
-- 🌐 Search Google
-- ▶️ Play YouTube videos
-- 🕒 Tell current time
-- 📂 Open desktop applications
-- 📁 Open folders
-- 🌦 Weather information (optional)
-- 📧 Email automation (optional)
-- 🤖 AI-powered responses (optional)
-
----
 
 ## Technologies Used
 
@@ -35,46 +21,12 @@ This project uses speech recognition and text-to-speech technologies to interact
 
 ---
 
-## Installation
 
-Clone the repository:
-
-```bash
-git clone https://github.com/YourUsername/jarvis-ai-desktop-assistant.git
-```
-
-Move into the project folder:
-
-```bash
-cd jarvis-ai-desktop-assistant
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the project:
-
-```bash
-python main.py
-```
-
----
-
-## Project Structure
-
-```
-jarvis-ai-desktop-assistant/
+python-jarvis-assistant
 │
 ├── main.py
-├── assistant.py
 ├── commands.py
-├── config.py
-├── requirements.txt
-├── assets/
-├── screenshots/
+├── speech.py
 └── README.md
 ```
 
@@ -92,14 +44,6 @@ jarvis-ai-desktop-assistant/
 - Wake Word Detection
 - Offline Voice Recognition
 
----
 
-## Credits
 
-Tutorial followed:
 
-CodeWithHarry – Iron Man Jarvis AI Desktop Voice Assistant
-
-https://youtu.be/Lp9Ftuq2sVI
-
-This project is intended for educational purposes. Any additional features or modifications beyond the tutorial are my own work.
